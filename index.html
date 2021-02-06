@@ -42,7 +42,7 @@
     <section class="order">
         <div class="container">
         <h1 class="order-title">Эфективные решения для вашего бизнеса</h1>
-        <button type="button" class="order-button">Заказать услугу</button>
+        <button type="button" class="order-button" data-modal-open>Заказать услугу</button>
         </div>
     </section>
         <!--END HERO-->
@@ -377,15 +377,15 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden"data-modal>
         <div class="modal">
-            <button type="button" class="modal-close_button">
-                <svg class="modal-close_button-icon">
+            <button type="button" class="modal-close_button" data-modal-close>
+                <svg class="modal-close_button-icon" >
                     <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
         </div>
     </div>
-    
+    <script src="./js/modal.js"></script>
 </body>
 </html>
