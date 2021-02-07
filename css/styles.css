@@ -132,6 +132,7 @@ padding-top: 25px;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
+    color: #212121;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -250,6 +251,7 @@ padding-top: 25px;
     width: 650px;
 }
 .order-button{
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
     background-color: var(--accent-color);
@@ -671,6 +673,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .portfolio_buttons-list-item-text:focus{
     background-color: var(--accent-color);
     color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 .portfolio_buttons-list-item-text {
     cursor: pointer;
@@ -679,6 +683,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 /* Portfolio products */
 .portfolio-title {
 color:rgba(255, 255, 255, 0);
+visibility: hidden;
+display: none;
 }
 .portfolio-list {
     display: flex;
